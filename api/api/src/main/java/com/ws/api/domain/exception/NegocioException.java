@@ -1,0 +1,7 @@
+package com.ws.api.domain.exception;
+
+public class NegocioException extends RuntimeException{
+    public NegocioException(String message) {
+        super(message);
+    }
+}
